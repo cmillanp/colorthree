@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #2f2f2f;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 0, 0, 0.2); /* Un fondo semi-transparente */
+}
