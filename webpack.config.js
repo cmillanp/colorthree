@@ -22,8 +22,8 @@ module.exports = {
                 },
             },
             {
-                test: /\.css$/, // Para procesar archivos CSS
-                use: ['style-loader', 'css-loader'], // Usa los loaders style-loader y css-loader
+                test: /\.css$/i,
+                use: ["style-loader", "css-loader"],
             },
         ],
     },

@@ -12,7 +12,7 @@ document.documentElement.style.height = '100vh';
 
 // Configuración básica de la escena
 const scene = new THREE.Scene();
-scene.background = new THREE.Color(0x121212); // Color de fondo
+scene.background = new THREE.Color(0x000000); // Color de fondo
 
 // Configuración de la cámara
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);

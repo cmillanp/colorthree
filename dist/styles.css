@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #2f2f2f;
+    font-family: Arial, sans-serif;
+}
+
+#footer {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 18px;
+    z-index: 2; /* Esto asegura que el footer esté por encima de Three.js */
+    height: 50px;
+}
+
+#footer a {
+    color: white; /* Ajusta el color del texto */
+    text-decoration: none; /* Quita el subrayado */
+}
+
+#footer a:hover {
+    color: white; /* Mantiene el color al pasar el ratón por encima */
+    text-decoration: none; /* Asegura que el subrayado no aparezca al pasar el ratón por encima */
+}
+
