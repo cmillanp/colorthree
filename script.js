@@ -103,8 +103,8 @@ function animate() {
     requestAnimationFrame(animate);
 
     // Rotar toda la escena lentamente
-    scene.rotation.y += 0.01; // Rotación lenta en el eje Y
-    scene.rotation.x += 0.01; // Rotación lenta en el eje X (opcional)
+    scene.rotation.y += 0.001; // Rotación lenta en el eje Y
+    scene.rotation.x += 0.001; // Rotación lenta en el eje X (opcional)
 
     // Calcular el nuevo tamaño basado en una función senoidal
     const newScale = 2 + Math.sin(scaleFactor) * 0.1; // El tamaño oscilará entre 0.5 y 1.5
